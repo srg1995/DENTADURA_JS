@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../scss/style.css",
+	"sources": [
+		"../scss/style.scss"
+	],
+	"sourcesContent": [
+		".hola{\n    colo:red;\n}\n\n.hola{\n    colo:red;\n}\n\n\n\n.hola{\n    colo:red;}\n\n.hola{\n    colo:red;\n}"
+	],
+	"mappings": ";AAAA,AAAA,KAAK,CAAA;EACD,IAAI,EAAC,GAAI,GACZ;;;AAED,AAAA,KAAK,CAAA;EACD,IAAI,EAAC,GAAI,GACZ;;;AAID,AAAA,KAAK,CAAA;EACD,IAAI,EAAC,GAAI,GAAE;;;AAEf,AAAA,KAAK,CAAA;EACD,IAAI,EAAC,GAAI,GACZ",
+	"names": []
+}

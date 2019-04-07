@@ -1,0 +1,97 @@
+/*GENERICO*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+section, article, nav, footer {
+  font-family: Roboto;
+  margin: 0 auto;
+  max-width: 768px;
+}
+
+/*MENU*/
+.menuOdon {
+  background: #0066ac;
+  height: 75px;
+}
+
+.menuOdon img {
+  float: left;
+}
+
+.menuOdon h1 {
+  float: left;
+}
+
+.menuOdon ul {
+  list-style: none;
+  display: none;
+}
+
+nav.menuOdon ul li {
+  float: left;
+}
+
+/*SECCION*/
+/*ARTICULO 1 - CLIENTE*/
+section article#cliente {
+  display: inline-block;
+  width: 768px;
+}
+
+section article#cliente img {
+  float: left;
+  padding: 3px 5px 0 0;
+}
+
+/*ARTICULO 2 - DENTADURA*/
+section article#dentadura {
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+/*ARTICULO 3 - OPERACION*/
+section article#operacion table {
+  width: 80%;
+  margin: 0 10%;
+}
+
+section article#operacion .circulo-lleno i {
+  font-size: 1.5em;
+  color: #0066ac;
+  float: left;
+  margin-right: 10px;
+}
+
+section article#operacion .circulo-vacio i {
+  font-size: 1.5em;
+  color: #b9b9b9;
+  float: left;
+  margin-right: 10px;
+}
+
+/*FOOTER*/
+footer {
+  border-top: solid 1px #b9b9b9;
+  width: 100%;
+  background: #f4f4f4;
+}
+
+footer {
+  display: block;
+  background: #f4f4f4;
+}
+
+footer .item-footer {
+  width: 33.33%;
+  float: left;
+  text-align: center;
+}
+
+footer .item-footer img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
