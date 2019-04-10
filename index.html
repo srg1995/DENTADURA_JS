@@ -8,25 +8,44 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 	<link href="./css/style.css" rel="stylesheet">
-	<script src="./js/funcionalidad.js"></script>
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 </head>
 <body>
 
 	<nav class="menuOdon">
-		<img src="./img/iconBack.png" alt="volver" id="ico-back">
-		<h1 class="titulo">ODONTOGRAMA</h1>
-		<img src="./img/iconNotificacionesBlanco.png" alt="notificacion" id="ico-notificacion">
-		<img src="./img/iconMenulateralBlanco.png" alt="menu" id="ico-menu-lateral">
+		<div class="capa-ico-back">
+			<img src="./img/iconBack.png" alt="volver" id="ico-back">
+		</div>
+		<div class="capa-titulo">
+			<h1 class="titulo">ODONTOGRAMA</h1>
+		</div>
+		<div class="capa-notificaciones">
+			<img src="./img/iconMenulateralBlanco.png" alt="menu" id="ico-menu-lateral">
+			<img src="./img/iconNotificacionesBlanco.png" alt="notificacion" id="ico-notificacion">
+		</div>
 
-
-		<ul>
-			<img src="./img/avatarUniversalAzul.png" alt="foto del paciente">
-			<li><img src="./img/iconHome.png" alt="casa">INICIO</li>
-			<li><img src="./img/iconAreamedica2.png" alt="area medica">&Aacute;REA M&Eacute;DICA</li>
-			<li><img src="./img/iconAgenda.png" alt="agenda"> AGENDA Y CITAS</li>
-		</ul>
-
+		<div id="menu-desplegable">
+			<div id="capa-usuario">
+				<img src="./img/avatarUniversalAzul.png" alt="foto del paciente" id="avatar">
+				<p class="texto">Miguel Robles Gonzalez</p>
+				<img src="./img/iconBack.png" alt="volver" id="ico-back-inversa">
+			</div>
+			<div class="opciones">
+				<div>
+					<img src="./img/iconHome.png" alt="casa">
+					<p class="texto">INICIO</p>
+				</div>
+				<div>
+					<img src="./img/iconAreamedica2.png" alt="area medica">
+					<p class="texto">&Aacute;REA M&Eacute;DICA</p>
+				</div>
+				<div>
+					<img src="./img/iconAgenda.png" alt="agenda">
+					<p class="texto">AGENDA Y CITAS</p>
+				</div>
+			</div>
+		</div>
+		<div id="capa-opaca"></div>
 	</nav>
 
 	<section>
@@ -254,36 +273,41 @@
 				</g>
 			</g>
 			</svg>
-			<img src="./img/botonDescargar.png" alt="descargar imagen">
+			<p id="texto-izq">Izquierda</p>
+			<p id="texto-drch">Derecha</p>
+			<p id="texto-pal">Paladar</p>
+			<p id="texto-leng">Lengua</p>
+			<img src="./img/botonDescargar.png" alt="descargar imagen" id="btn-descargar">
 		</article>
 		<article id="operacion">
 			<table>
 				<tr>
 					<td>
-						<div class="circulo-lleno" data-identificador="c1"><i class="fas fa-check-circle"></i></div>
+						<div class="circulo" data-identificador="c1"><i class="fas fa-check-circle"></i></div>
 						<p>Endodoncia</p>
 					</td>
 					<td>
-						<div class="circulo-vacio" data-identificador="c1"><i class="far fa-circle"></i></div>
+						<div class="circulo" data-identificador="c2"><i class="far fa-circle"></i></div>
 						<p>Empaste</p>
 					</td>
 					<td>
-						<div class="circulo-vacio" data-identificador="c1"><i class="far fa-circle"></i>
+						<div class="circulo" data-identificador="c3"><i class="far fa-circle"></i>
 						</div>
 						<p>Empaste</p>
 					</td>
 				</tr>
+				<tr></tr>
 				<tr>
 					<td>
-						<div class="circulo-vacio" data-identificador="c1"><i class="far fa-circle"></i></div>
+						<div class="circulo" data-identificador="c4"><i class="far fa-circle"></i></div>
 						<p>Ortodoncia</p>
 					</td>
 					<td>
-						<div class="circulo-vacio" data-identificador="c1"><i class="far fa-circle"></i></div>
+						<div class="circulo" data-identificador="c5"><i class="far fa-circle"></i></div>
 						<p>Curetaje</p>
 					</td>
 					<td>
-						<div class="circulo-vacio" data-identificador="c1"><i class="far fa-circle"></i></div>
+						<div class="circulo" data-identificador="c6"><i class="far fa-circle"></i></div>
 						<p>Curetaje</p>
 					</td>
 				</tr>
@@ -293,17 +317,19 @@
 
 	<footer>
 		<div class="item-footer" id="f-historial">
-			<img src="./img/icon/iconHistorialTab.svg" class="historialNegro" alt="historial del paciente">
-			<p>Historial</p>
+			<img src="./img/icon/iconHistorialTab.svg" id="historial" alt="historial del paciente" data-nombre="./img/icon/iconHistorialTab">
+			<p id="txt-historial">Historial</p>
 		</div>
 		<div class="item-footer" id="f-odontograma">
-			<img src="./img/icon/iconOdontogramaTab.svg" class="odontogramaNegro" alt="odontograma del paciente">
-			Odontograma
+			<img src="./img/icon/iconOdontogramaTab.svg" id="odontograma" alt="odontograma del paciente" data-nombre="./img/icon/iconOdontogramaTab">
+			<p id="txt-odontograma">Odontograma</p>
 		</div>
 		<div class="item-footer" id="f-documentacion">
-			<img src="./img/icon/iconDocumentacionTab.svg" class="documentacionNegro" alt="documentacion del paciente">
-			Documentacion
+			<img src="./img/icon/iconDocumentacionTab.svg" id="documentacion" alt="documentacion del paciente" data-nombre="./img/icon/iconDocumentacionTab">
+			<p id="txt-documentacion">Documentacion</p>
 		</div>
 		</footer>
+
+		<script src="./js/funcionalidad.js"></script>
 </body>
 </html>

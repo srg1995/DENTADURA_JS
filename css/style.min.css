@@ -1,15 +1,1 @@
-.hola {
-  colo: red;
-}
-
-.hola {
-  colo: red;
-}
-
-.hola {
-  colo: red;
-}
-
-.hola {
-  colo: red;
-}
+*{margin:0;padding:0}body,section,article,nav,footer{font-family:Roboto;margin:0 auto;max-width:768px;min-width:375px}body{overflow-x:hidden}.menuOdon{position:relative;height:20px;padding:20px 0;background:#0066ac}.capa-ico-back{width:20%;height:20px;float:left}.menuOdon #ico-back{height:22px;padding-left:15px;float:left}.capa-titulo{width:60%;float:left}.menuOdon .titulo{text-align:center;font-size:1.2em;color:#fff}.capa-notificaciones{width:20%;float:left}.menuOdon #ico-notificacion,.menuOdon #ico-menu-lateral{padding-right:15px;float:right;cursor:pointer}.menuOdon #menu-desplegable{position:absolute;display:none;width:0;top:0;bottom:0;right:0;left:768px;height:100vh;background:#fff;z-index:99}.menuOdon #menu-desplegable #capa-usuario{position:relative;top:0;width:100%;height:100px;min-width:340px;background:#0066ac}nav.menuOdon #menu-desplegable #avatar{margin:15px;float:left}.menuOdon #menu-desplegable #capa-usuario #ico-back-inversa{height:30px;margin-top:-23px;margin-right:15px;transform:rotate(180deg);float:right;cursor:pointer}.menuOdon #menu-desplegable #capa-usuario .texto{width:80%;padding:40px 20px 0 0;font-size:1em;color:#fff}.menuOdon #menu-desplegable .opciones{position:relative;width:80%;padding:40px 20px 0 0;font-size:1em;color:#4a4a4a}.menuOdon .opciones div{height:25px;margin-bottom:20px;cursor:pointer}.menuOdon .opciones p.texto{display:inline;position:relative;top:-5px}.menuOdon .opciones img{height:25px;margin:0 30px}.menuOdon #capa-opaca{position:absolute;width:100%;top:0;height:100vh;display:none;background:rgba(0,0,0,0.7);z-index:9}section article#cliente{display:inline-block;padding:20px 0}section article#cliente img{padding:8px 7px 0 5px;float:left}section article#cliente p.texto{font-size:1.5em}section article#dentadura{position:relative;padding:20px 0;text-align:center;background-color:#f4f4f4}section article#dentadura #btn-descargar{position:absolute;bottom:30px;right:30px;cursor:pointer}section article#dentadura #texto-izq,section article#dentadura #texto-drch,section article#dentadura #texto-pal,section article#dentadura #texto-leng{position:absolute;font-size:1.2em;color:#0066ac}section article#dentadura #texto-izq{top:3%;left:5%}section article#dentadura #texto-drch{top:3%;right:5%}section article#dentadura #texto-pal{top:24%;width:100%;text-align:center}section article#dentadura #texto-leng{width:100%;top:64%;text-align:center}section article#operacion table{width:90%;margin:0 0 0 10%}section article#operacion i{margin-right:10px;color:#0066ac;font-size:1.5em;float:left}section article#operacion .circulo i{margin-right:10px;color:#b9b9b9;font-size:1.5em;float:left;cursor:pointer}section article#operacion .circulo i.fa-check-circle{color:#0066ac}footer{display:block;height:75px;padding-top:7px;border-top:solid 1px #b9b9b9;background:#f4f4f4}footer .item-footer{width:33.33%;text-align:center;float:left;cursor:pointer}footer .item-footer img{display:block;margin-bottom:10px;margin-left:auto;margin-right:auto}
